@@ -1,7 +1,7 @@
 # Ansible Imports and Roles
 
 
-<img src="Images/Screenshot_0.jpeg" width="900" height="500">
+<img src="Images/Screenshot_0.jpeg" width="900" height="400">
 
 
 In the last project https://github.com/BusisiwePieterson/ansible-config-mgt/tree/prj-11 all the tasks are written in a single playbook. It is pretty simple set of instructions for only 2 types of OS but imagine you have many more tasks and you need to apply this playbook to other servers with different requirements. In this case, you will have to read through the whole playbook to check if all tasks written there are applicable and there is anything that you need to add for certain server/OS families. Very fast it will become a tedious excersice and your playbook will become messy with many commented parts.
