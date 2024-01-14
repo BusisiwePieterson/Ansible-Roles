@@ -178,8 +178,14 @@ Remember that the entry point to our ansible configuration is the `site.yaml` fi
 
 Commit your changes, create a PR and merge them to `main` branch, make sure that the webhook triggered two consequent Jenkins jobs, they ran succesfully and copied all the files to your Jenkins server into `/home/ubuntu/ansible-config-mgt/`
 
+  - Run your playbook `ansible-playbook -i inventory/uat.yaml playbooks/site.yaml`
+
 
 ![image](Images/Screenshot_23.png)
+
+  - Reach your webserver in the browser `<public-ip-address/index.php>`
+
+![image](Images/Screenshot_28.png)
 
 
 
