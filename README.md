@@ -8,7 +8,7 @@ In the last project https://github.com/BusisiwePieterson/ansible-config-mgt/tree
 
 ##
 ### Step 1 - Jenkins job enhancement
-1. Go to your `Jenkins-Ansible` server and create a new directory called `asnibel-config-artifact` we will store there all the artifacts after each build.
+1. Go to your `Jenkins-Ansible` server and create a new directory called `ansible-config-artifact` we will store there all the artifacts after each build.
     - Run `sudo mkdir /home/ubuntu/ansible-config-artifact`
 
 2. Change permissions to the directory, so Jenkis could save files there. 
